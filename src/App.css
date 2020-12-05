@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-title {
+  font: 500 1.25rem 'Lobster', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-img-overlay .card-title {
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.App-link {
-  color: #61dafb;
+.Selectors {
+  background: white;
+  justify-content: left;
+  padding: 10px;
+  text-align: left;
+  top: 0;
+  width: 14.375rem;
+  left: 0;
+  transform: translate(6%, -430%);
+
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-title {
+  line-height: 1;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 6 1rem 0 0;
+}
+
+.btn-secondary {
+  color: blue;
+  background-color: white;
+  border-color: blue;
+}
+
+input {
+  border-color: white;
+  border: none;
+}
+
+a {
+  color: black;
+}
+
+.card {
+  width: 18rem;
+  text-align: center;
 }
